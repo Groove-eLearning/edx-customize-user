@@ -1,0 +1,5 @@
+include CHANGELOG.rst
+include LICENSE.txt
+include README.md
+include requirements/base.in
+recursive-include prevent_delete_user *.html *.png *.gif *js *.css *jpg *jpeg *svg *py
