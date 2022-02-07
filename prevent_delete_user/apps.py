@@ -18,3 +18,6 @@ class EdxCustomizeUserConfig(AppConfig):
         'url_config': {},
         'settings_config': {},
     }
+
+    def ready(self):
+        from . import signals
